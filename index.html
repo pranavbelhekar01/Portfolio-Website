@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <Meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="'width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/12a3e04d04.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="photos/logo1.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Machine Learning Engineer</p>
+                    <h1>Hi, I'm <span>Pranav</span><br> Belhekar from India</h1>
+                </div>
+            </div>
+        </div>
+        <!----------------- about --------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="photos/subphoto2.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <!-- --------------- update --------------- -->
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            <h3>AI Enthusiast | Machine Learning | Python | Data Structure | Data Analysis</h3>
+                            <br><br>
+                            My name is Pranav and I'm a Aritificial Intelligence Enthusiast from Pune. 
+                            I've been writing code since I was a teenager, and I'm passionate about creating great software.
+                            I specialize in python and machine learning algorithm.
+                            In my spare time, I enjoy reading books, hiking, and playing music. <br>
+                            I'm also an avid reader and love learning about new technologies and coding techniques.
+                            I'm constantly looking for ways to improve my skills and stay up to date with the latest industry trends. 
+                            I'm passionate about writing clean, maintainable code and always eager to learn new things. 
+                            I'm also a strong believer in the importance of collaboration and team work in software development. <br>
+                            Overall, I'm a motivated individual who loves to learn and create something new.
+                                                        
+                            
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Machine Learning Engineer</span><br>Playing with Machine Learning Algorithm using Python</li>
+                                <li><span>Python</span><br>Python Developer</li>
+                                <li><span>Data Science</span><br>Tableau, Visualization, Analysis</li>
+                                <li><span>SQL</span><br>MySQL, Database Management</li>
+                                <li><span>Data Structure & Algorithm</span><br>DSA and Problem Solving</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Hackathons</span><br>Participated in Datasolve, Shell.AI, Vizathon and Cohere Generative Hackathon</li>
+                                <li><span>Kaggle Contributor</span><br>I'm Kaggle contributor who is passionate to contribute to the kaggle community. br 
+                                                                        Contributed to many competitions.</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>School</span><br>New English School, Deolali Pravara, Ahemadnagar.</li>
+                                <li><span>Junior College</span><br>ASC College, Rahuri. <br>Science(IT).</li>
+                                <li><span>Graduation</span><br>D.Y Patil College of Engineering, Akurdi. <br>Artificial Intelligence & Data Science, Third year.<br>(passing batch 2024)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------- Services --------------- -->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python Developer</h2>
+                        <!-- --------------- update --------------- -->
+                        <p>Object-Oriented Programming <br>
+                            Software Design and Architecture <br>
+                            Web Development<br>
+                            Data Structures and Algorithms<br>
+                            Debugging and Troubleshooting<br>
+                            Scripting and Automation</p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chart-column"></i>
+                        <h2>Data Analyst</h2>
+                        <!-- --------------- update --------------- -->
+                        <p>
+                            Statistical Analysis <br>
+                            Data Visualization<br>
+                            Database Management<br>
+                            Data Cleaning<br>
+                            Data Modeling<br>
+                            Problem Solving<br>
+                            Business Analysis<br>
+                            Communication<br>
+                            Technical Writing<br>
+                            Data Wrangling<br>
+                            Predictive Analytics</p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-robot"></i>
+                        <h2>Machine Learning Engineer</h2>
+                        <!-- --------------- update --------------- -->
+                        <p>Data cleaning and preprocessing <br>
+                            Model building and selection<br>
+                            Model evaluation and optimization<br>
+                            Algorithm tuning<br>
+                            Feature selection and engineering<br>
+                            Data visualization<br>
+                            Data mining<br>
+                            Predictive modeling<br>
+                            Natural language processing<br>
+                            Deep learning</p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------- Portfolio --------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="photos/cv.png">
+                        <div class="layer">
+                            <h3>Cover Letter Generator</h3>
+                            <p>AI-based model that automatically generates the Cover-Letter based on user's information. <br>Smart and efficient</p>
+                            <a href="https://github.com/pranav620b/CoverLetterGenerator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photos/work-2.png">
+                        <div class="layer">
+                            <h3>Inventory Management System</h3>
+                            <p>Management system for inventory which is easy to use and with simple but effective GUI using python and tkinter. <br>MySQL is used as a data base management system.</p>
+                            <a href="https://github.com/pranavbelhekar01/Inventory-Management-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photos/mrs.jpeg">
+                        <div class="layer">
+                            <h3>Movie Rent System</h3>
+                            <p>Rents the movies to the user of his choice and demand which integrate with AI to recommend the movies related to user's interest.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- --------------- Contact --------------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>pranavbelhekar2002@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone"></i>8329869588</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/pranav-belhekar-a14220214/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/pranavbelhekar01"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.kaggle.com/pranavbelhekar"><i class="fa-brands fa-kaggle"></i></a>
+                            
+                            
+                        </div>
+                        <a href="photos/my resume.pdf"  download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©️ Pranav. Made with <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+
+        <script>
+            
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents');
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove('active-link');
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove('active-tab');
+                }
+
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabname).classList.add('active-tab')
+            }
+            
+        </script>
+        <script>
+            var sidemenu = document.getElementById('sidemenu');
+            function openmenu(){
+                sidemenu.style.right = '0';
+            }
+            function closemenu(){
+                sidemenu.style.right = '-200px';
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwMt8x-0ksJ76s6N9TAQuwIoV_2b-As0AmLuoP5pnE8bgkg8_cEDoa9OXQWKGflgif8iA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('msg')
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Thank you, I'll reply soon!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000);
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
