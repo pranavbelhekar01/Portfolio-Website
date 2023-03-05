@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="photos/subphoto2.jpg">
+                        <img src="photos/withsuite-bg.jpg">
                     </div>
                     <div class="about-col-2">
                         <!-- --------------- update --------------- -->
@@ -57,8 +57,10 @@
                         </p>
                         <div class="tab-titles">
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
                             <p class="tab-links" onclick="opentab('experience')">Experience</p>
                             <p class="tab-links" onclick="opentab('education')">Education</p>
+                            
                         </div>
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
@@ -69,11 +71,37 @@
                                 <li><span>Data Structure & Algorithm</span><br>DSA and Problem Solving</li>
                             </ul>
                         </div>
-                        <div class="tab-contents" id="experience">
+                        <div class="tab-contents" id="Achievements">
                             <ul>
                                 <li><span>Hackathons</span><br>Participated in Datasolve, Shell.AI, Vizathon and Cohere Generative Hackathon</li>
-                                <li><span>Kaggle Contributor</span><br>I'm Kaggle contributor who is passionate to contribute to the kaggle community. br 
-                                                                        Contributed to many competitions.</li>
+                                <li>
+                                    <span>Kaggle 2x Expert</span>
+                                    <br>I'm Kaggle Expert who is passionate to contribute to the kaggle community. Contributed to many competitions.
+                                    <br>
+                                    <ul>
+                                        <li>GoDaddy - Microbusiness Density Forecasting</li>
+                                        <li>March Machine Learning Mania 2023</li>
+                                        <li>Learning Equality - Curriculum Recommendations</li>
+                                        <li>Stable Diffusion - Image to Prompts(Ongoing)</li>
+                                    </ul>  
+                                                                        
+
+                                                                    
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Developing Artificial virtual interviewer system</span>
+                                    <br>DY Patil College of Engineering<br>
+                                    10/2022 - Present<br> This is an Ongoing Research Intern Under the Head of the Department AI‑DS DR. VINAYAK G. KOTTAVAR. Developing an artificial virtual interviewer system that uses synchronized image and speech recognition technologies to conduct interviews with job candidates. Incorporated machine learning techniques to enable the system to adapt and learn from previous interviews, improving the accuracy of the candidate assessment over time
+
+                                </li>
+                                <li><span>Research Paper on SOTA Architecture for Audio Emotion Recognition (Ongoing)</span>
+                                    <br>DY Patil College of Engineering<br>
+                                    1/2023 - Present<br> Currently, working on a research paper for developing and deploying the SOTA architecture for Audio Signal Processing under the guidance of the head of the department Dr. VINAYAK G. KOTTAWAR
+                                </li>
                                 
                             </ul>
                         </div>
@@ -147,7 +175,42 @@
         <div id="portfolio">
             <div class="container">
                 <h1 class="sub-title">My Work</h1>
+                <br>
+                <h2>Main Projects</h2>
+                <div class="main-projects">
+                    
+                    <div class="work">
+                        <img src="photos/data_analyst1.jpg">
+                        <div class="layer">
+                            <h3>Realtime Data Science Job Analysis</h3>
+                            <p>AI-based model that automatically generates the Cover-Letter based on user's information. <br>Smart and efficient</p>
+                            <a href="https://github.com/pranavbelhekar01/Realtime-Data-Analyst-Job-Analysis"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photos/audio1.jpg">
+                        <div class="layer">
+                            <h3>Realtime Audio Emotion Recognition</h3>
+                            <p>Management system for inventory which is easy to use and with simple but effective GUI using python and tkinter. <br>MySQL is used as a data base management system.</p>
+                            <!-- <a href="https://github.com/pranavbelhekar01/Inventory-Management-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photos/work-2.png">
+                        <div class="layer">
+                            <h3>Inventory Management System</h3>
+                            <p>Management system for inventory which is easy to use and with simple but effective GUI using python and tkinter. <br>MySQL is used as a data base management system.</p>
+                            <a href="https://github.com/pranavbelhekar01/Inventory-Management-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------- section ------------------------ -->
+                <div>
+                    <br> <br>
+                    <h2>Other Projects</h2>
+                </div>
                 <div class="work-list">
+                    
                     <div class="work">
                         <img src="photos/cv.png">
                         <div class="layer">
@@ -157,11 +220,11 @@
                         </div>
                     </div>
                     <div class="work">
-                        <img src="photos/work-2.png">
+                        <img src="photos/scraping.jpeg">
                         <div class="layer">
-                            <h3>Inventory Management System</h3>
+                            <h3>Web Scraping</h3>
                             <p>Management system for inventory which is easy to use and with simple but effective GUI using python and tkinter. <br>MySQL is used as a data base management system.</p>
-                            <a href="https://github.com/pranavbelhekar01/Inventory-Management-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/pranavbelhekar01/Web-Scraping"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div class="work">
@@ -173,8 +236,24 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn">See More</a>
+                <div id="portfolio">
+
+                    <h2>Other Projects</h2>
+                    <p>
+                        <ul>
+                            <li>Imdb sentiment review Analysis using ML</li>
+                            <li>FIFA Data Analysis</li>
+                            <li>Time Series Forecasting</li>
+                            <li>Fingerprint recognition</li>
+                            <li>Sentiment Analysis</li>
+                            <li>So on...</li>
+
+                        </ul>
+                    </p>
+                </div>
+                <a href="https://github.com/pranavbelhekar01" class="btn">See More</a>
             </div>
+
         </div>
 
         <!-- --------------- Contact --------------- -->
@@ -194,7 +273,8 @@
                             
                             
                         </div>
-                        <a href="photos/my resume.pdf"  download class="btn btn2">Download CV</a>
+                        <!-- <a href="photos/DS CV.jpg"  download class="btn btn2">Download CV</a> -->
+                        <a href="photos/updated Resume.pdf"  download class="btn btn2">Download Resume</a>
                     </div>
                     <div class="contact-right">
                         <form name="submit-to-google-sheet">
