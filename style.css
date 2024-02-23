@@ -6,8 +6,12 @@
 html{
     scroll-behavior: smooth;
 }
-body{
+/* body{
     background: #080808;
+    color: #fff;
+} */
+body{
+    background: linear-gradient(to bottom, #0A0320, #080808);
     color: #fff;
 }
 #header {
@@ -425,7 +429,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(photos/bg.png); 
+        background-image: url(photos/kandilportrait.gif); 
     }
     .header-text{
         margin-top: 60%;
